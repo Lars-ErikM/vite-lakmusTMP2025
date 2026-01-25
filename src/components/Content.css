@@ -1,0 +1,15 @@
+.content-white {
+    background-color: green;
+    color: black;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .content-black {
+    background-color: black;
+    color: white;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
