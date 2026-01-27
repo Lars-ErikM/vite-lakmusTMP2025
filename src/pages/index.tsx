@@ -2,3 +2,4 @@
 // export * from "./kommende";
 // export * from "./om_oss";
 // export * from "./bilder";
+export {};
