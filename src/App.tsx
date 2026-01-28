@@ -17,7 +17,7 @@ import Bilder from "./pages/bilder";
 const App = () => {
   return (
     <div className="App">
-      <Routes>
+      <Routes basename={import.meta.env.BASE_URL}>
         <Route path="/" element={<Hjem />} />
         <Route path="/kommende" element={<Kommende />} />
         <Route path="/om_oss" element={<OmOss />} />
