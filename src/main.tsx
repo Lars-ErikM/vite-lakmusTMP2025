@@ -9,6 +9,7 @@ import {
   HashRouter,
 } from "react-router-dom";
 
+//Bytte fra Router til HashRouter gjorde at appen funker også med base:<REPO> referanse - Funker fortsatt ikke i Github
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
     <HashRouter>
